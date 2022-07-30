@@ -1,0 +1,49 @@
+.btn {
+  &-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .btn {
+      margin-bottom: 10px;
+    }
+
+    @include media-breakpoint-up(md) {
+      flex-direction: row;
+
+      .btn {
+        margin: 0 10px 10px;
+      }
+    }
+  }
+
+  &-primary {
+    background-color: $c-blue;
+    border-color: $c-blue;
+  }
+
+  &-secondary {
+    background-color: $c-pink;
+    border-color: $c-pink;
+
+    &:hover {
+      background-color: $c-dark-pink;
+      border-color: $c-dark-pink;
+    }
+
+    &:active {
+      background-color: $c-dark-pink;
+      outline: none;
+    }
+
+    &:focus {
+      background-color: $c-dark-pink;
+      outline: none;
+    }
+
+    &:focus-visible {
+      outline-color: $c-dark-pink;
+    }
+  }
+}

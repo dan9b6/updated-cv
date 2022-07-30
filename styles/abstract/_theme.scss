@@ -1,0 +1,144 @@
+.theme {
+  &--lfs {
+    .header,
+    .section--dark,
+    .btn-secondary {
+      background-color: #31b1b4 !important;
+      border-color: #31b1b4;
+      color: $c-white;
+      transition: 0.4s;
+      transition-delay: 0;
+    }
+
+    .header__hamburger span {
+      background-color: $c-white;
+      transition: 0.4s;
+      transition-delay: 0;
+    }
+  }
+  &--hoya {
+    .header,
+    .section--dark,
+    .btn-secondary {
+      background-color: #0055c4;
+      border-color: #0055c4;
+      color: $c-white;
+      transition: 0.4s;
+      transition-delay: 0;
+    }
+  }
+  &--afi {
+    .header,
+    .section--dark,
+    .btn-secondary {
+      background-color: #e3056d !important;
+      border-color: #e3056d;
+      color: $c-white;
+      transition: 0.4s;
+      transition-delay: 0;
+    }
+
+    .header__hamburger span {
+      background-color: $c-white;
+      transition: 0.4s;
+      transition-delay: 0;
+    }
+  }
+  &--jd {
+    .header,
+    .section--dark,
+    .btn-secondary {
+      background-color: #144941 !important;
+      border-color: #144941;
+      color: $c-white;
+      transition: 0.4s;
+      transition-delay: 0;
+    }
+
+    .header__hamburger span {
+      background-color: $c-white;
+      transition: 0.4s;
+      transition-delay: 0;
+    }
+  }
+  &--swi {
+    .header,
+    .section--dark,
+    .btn-secondary {
+      background-color: #003876 !important;
+      border-color: #003876;
+      color: $c-white;
+      transition: 0.4s;
+    }
+
+    .header__hamburger span {
+      background-color: $c-white;
+      transition: 0.4s;
+      transition-delay: 0;
+    }
+  }
+  &--atg {
+    .header,
+    .section--dark,
+    .btn-secondary {
+      background-color: #d2d2d2 !important;
+      border-color: #d2d2d2;
+      color: #333;
+      transition: 0.4s;
+      transition-delay: 0;
+    }
+
+    .header__hamburger span {
+      background-color: #333;
+      transition: 0.4s;
+      transition-delay: 0;
+    }
+  }
+  &--cn {
+    .section--dark,
+    .btn-secondary {
+      background-color: #29326c !important;
+      border-color: #29326c;
+      color: $c-white;
+      transition: 0.4s;
+      transition-delay: 0;
+    }
+
+    .header {
+      background-color: #71b82a !important;
+      border-color: #71b82a;
+      color: $c-white;
+      transition: 0.4s;
+      transition-delay: 0;
+    }
+
+    .header__hamburger span {
+      background-color: #29326c;
+      transition: 0.4s;
+      transition-delay: 0;
+    }
+
+    .header__menu-status span {
+      color: #29326c;
+      transition: 0.4s;
+      transition-delay: 0;
+    }
+  }
+  &--ms {
+    .header,
+    .section--dark,
+    .btn-secondary {
+      background-color: #ff80ab !important;
+      border-color: #ff80ab;
+      color: $c-white;
+      transition-delay: 0;
+      transition: 0.4s;
+    }
+
+    .header__hamburger span {
+      background-color: $c-white;
+      transition: 0.4s;
+      transition-delay: 0;
+    }
+  }
+}

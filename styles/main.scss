@@ -1,0 +1,45 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+// Abstract
+@import "../styles/abstract/variables";
+@import "../styles/abstract/theme";
+// Components
+@import "../styles/components/footer";
+@import "../styles/components/header";
+@import "../styles/components/nav";
+@import "../styles/components/offer";
+@import "../styles/components/project";
+@import "../styles/components/section";
+// Elements
+@import "../styles/elements/buttons";
+@import "../styles/elements/images";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  transition: 0.25s;
+  font-family: $font-body;
+  color: $c-navy;
+  &.no-scroll {
+    overflow: hidden;
+    @include media-breakpoint-up(md) {
+      overflow: scroll;
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.btn {
+  font-family: $font-heading;
+}
+
+.carousel {
+  margin-bottom: 20px;
+}
