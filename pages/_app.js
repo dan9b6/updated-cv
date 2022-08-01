@@ -1,13 +1,18 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/main.css";
+import "aos/dist/aos.css";
 
 import Head from "next/head";
-
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import Navbar from "../components/Navbar";
+import AOS from "aos";
+import { useEffect } from "react";
 
 function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+    });
+  }, []);
+
   return (
     <>
       <Head>

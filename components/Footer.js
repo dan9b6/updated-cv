@@ -2,7 +2,12 @@ import Container from "react-bootstrap/Container";
 
 const Footer = () => {
   return (
-    <footer className="section--dark footer text-center" id="footer">
+    <footer
+      className="section--dark footer text-center"
+      id="footer"
+      data-aos="fade-zoom-in"
+      data-aos-duration="1000"
+    >
       <Container>
         <div className="footer__contact">
           <h2>Get in touch</h2>

@@ -4,19 +4,58 @@ import Navbar from "../components/Navbar";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import Head from "next/head";
 
 const aboutMe = () => {
   return (
     <>
+      <Head>
+        <title>danburts</title>
+        <meta name="title" content="danburts - About" />
+        <meta
+          name="description"
+          content="Check out my personal CV site if you are looking for your next developer!"
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.danburts.co.uk/" />
+        <meta property="og:title" content="danburts" />
+        <meta
+          property="og:description"
+          content="Check out my personal CV site if you are looking for your next developer!"
+        />
+        <meta
+          property="og:image"
+          content="https://www.danburts.co.uk/images/wave.gif"
+        />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.danburts.co.uk/" />
+        <meta property="twitter:title" content="Jo Darley & Co" />
+        <meta
+          property="twitter:description"
+          content="Check out my personal CV site if you are looking for your next developer!"
+        />
+        <meta
+          property="twitter:image"
+          content="https://www.danburts.co.uk/images/wave.gif"
+        />
+      </Head>
       <Header />
       <Navbar />
       <div className="about">
         <section className="section--landing text-center section--dark">
           <Container>
-            <h1>About Me</h1>
+            <h1 data-aos="fade-zoom-in" data-aos-duration="1000">
+              About Me
+            </h1>
           </Container>
         </section>
-        <section className="section text-center">
+        <section
+          className="section text-center"
+          data-aos="fade-zoom-in"
+          data-aos-duration="1000"
+        >
           <Container>
             <Row>
               <Col xs="12" lg="6">
@@ -83,7 +122,11 @@ const aboutMe = () => {
             </Row>
           </Container>
         </section>
-        <section className="section section--dark text-center">
+        <section
+          className="section section--dark text-center"
+          data-aos="fade-zoom-in"
+          data-aos-duration="1000"
+        >
           <Container>
             <h2>Current Role</h2>
             <div className="about__employment-block">
@@ -133,7 +176,11 @@ const aboutMe = () => {
             </div>
           </Container>
         </section>
-        <section className="section text-center section--timeline">
+        <section
+          className="section text-center section--timeline"
+          data-aos="fade-zoom-in"
+          data-aos-duration="1000"
+        >
           <Container>
             <h2>My Timeline</h2>
             <div className="timeline">

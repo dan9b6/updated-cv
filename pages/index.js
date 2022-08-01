@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 import Modal from "../components/Modal";
+import Head from "next/head";
 
 export default function Home() {
   const [toggle, setToggle] = useState(false);
@@ -54,11 +55,47 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>danburts</title>
+        <meta name="title" content="danburts" />
+        <meta
+          name="description"
+          content="Check out my personal CV site if you are looking for your next developer!"
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.danburts.co.uk/" />
+        <meta property="og:title" content="danburts" />
+        <meta
+          property="og:description"
+          content="Check out my personal CV site if you are looking for your next developer!"
+        />
+        <meta
+          property="og:image"
+          content="https://www.danburts.co.uk/images/wave.gif"
+        />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.danburts.co.uk/" />
+        <meta property="twitter:title" content="Jo Darley & Co" />
+        <meta
+          property="twitter:description"
+          content="Check out my personal CV site if you are looking for your next developer!"
+        />
+        <meta
+          property="twitter:image"
+          content="https://www.danburts.co.uk/images/wave.gif"
+        />
+      </Head>
       <Header />
       <Navbar />
       <section className="section section--landing section--dark text-center">
         <Container>
-          <div className="section--landing__heading">
+          <div
+            className="section--landing__heading"
+            data-aos="fade-zoom-in"
+            data-aos-duration="1000"
+          >
             <h1>Hello. I’m Dan. I’m a Web Developer looking for a new role!</h1>
           </div>
         </Container>
@@ -73,7 +110,11 @@ export default function Home() {
           />
         </a>
       </section>
-      <section className="section text-center">
+      <section
+        className="section text-center"
+        data-aos="fade-zoom-in"
+        data-aos-duration="1000"
+      >
         <Container>
           <h2>Are you looking for a new Web Developer?</h2>
           <p className="">If so, check out my credentials...</p>
@@ -92,7 +133,12 @@ export default function Home() {
           </div>
         </Container>
       </section>
-      <section className="section section--dark text-center" id="projects">
+      <section
+        className="section section--dark text-center"
+        id="projects"
+        data-aos="fade-zoom-in"
+        data-aos-duration="1000"
+      >
         <Container>
           <h2>Check out the projects I've worked on</h2>
           <Row>
@@ -200,7 +246,11 @@ export default function Home() {
           </Row>
         </Container>
       </section>
-      <section className="section text-center offer">
+      <section
+        className="section text-center offer"
+        data-aos="fade-zoom-in"
+        data-aos-duration="1000"
+      >
         <Container>
           <h2>What can I offer?</h2>
           <p className="lead">
@@ -244,7 +294,11 @@ export default function Home() {
           </Row>
         </Container>
       </section>
-      <section className="section section--dark text-center section--freelance">
+      <section
+        className="section section--dark text-center section--freelance"
+        data-aos="fade-zoom-in"
+        data-aos-duration="1000"
+      >
         <div className="section--freelance__overlay"></div>
         <Container>
           <div className="section--freelance__text">
