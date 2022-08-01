@@ -15,6 +15,20 @@
       transition: 0.4s;
       transition-delay: 0;
     }
+
+    .section--dark {
+      h2 {
+        color: $c-white;
+      }
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      color: #31b1b4;
+    }
   }
   &--hoya {
     .header,
@@ -25,6 +39,20 @@
       color: $c-white;
       transition: 0.4s;
       transition-delay: 0;
+    }
+
+    .section--dark {
+      h2 {
+        color: $c-white;
+      }
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      color: #0055c4;
     }
   }
   &--afi {
@@ -43,6 +71,20 @@
       transition: 0.4s;
       transition-delay: 0;
     }
+
+    .section--dark {
+      h2 {
+        color: $c-white;
+      }
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      color: #e3056d;
+    }
   }
   &--jd {
     .header,
@@ -60,6 +102,20 @@
       transition: 0.4s;
       transition-delay: 0;
     }
+
+    .section--dark {
+      h2 {
+        color: $c-white;
+      }
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      color: #144941;
+    }
   }
   &--swi {
     .header,
@@ -75,6 +131,20 @@
       background-color: $c-white;
       transition: 0.4s;
       transition-delay: 0;
+    }
+
+    .section--dark {
+      h2 {
+        color: $c-white;
+      }
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      color: #003876;
     }
   }
   &--atg {
@@ -92,6 +162,20 @@
       background-color: #333;
       transition: 0.4s;
       transition-delay: 0;
+    }
+
+    .section--dark {
+      h2 {
+        color: $c-white;
+      }
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      color: #333;
     }
   }
   &--cn {
@@ -123,6 +207,20 @@
       transition: 0.4s;
       transition-delay: 0;
     }
+
+    .section--dark {
+      h2 {
+        color: $c-white;
+      }
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      color: #29326c;
+    }
   }
   &--ms {
     .header,
@@ -139,6 +237,20 @@
       background-color: $c-white;
       transition: 0.4s;
       transition-delay: 0;
+    }
+
+    .section--dark {
+      h2 {
+        color: $c-white;
+      }
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      color: #ff80ab;
     }
   }
 }

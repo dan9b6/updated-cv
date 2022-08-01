@@ -50,7 +50,7 @@ export default function Home() {
           </div>
         </Container>
 
-        <div className="scroll-prompt">
+        <a className="scroll-prompt" href="#what-can-i-offer">
           <div className="scroll-prompt__text">
             <strong>Scroll down to see more</strong>
           </div>
@@ -58,8 +58,9 @@ export default function Home() {
             src="images/svg/mouse.svg"
             alt="Mouse"
             className="scroll-prompt__icon"
+            id="what-can-i-offer"
           />
-        </div>
+        </a>
       </section>
       <section className="section text-center">
         <Container>
@@ -70,100 +71,116 @@ export default function Home() {
           </p>
           <div className="btn-container">
             <button className="btn btn-secondary">I've got no time...</button>
-            <Link href="#">
+            <Link href="/about-me">
               <a className="btn btn-secondary">I've got time!</a>
             </Link>
           </div>
         </Container>
       </section>
-      <section className="section section--dark text-center">
+      <section className="section section--dark text-center" id="projects">
         <Container>
           <h2>Check out the projects I've worked on</h2>
           <Row>
             <Col xs="6" md="3">
-              <div
+              <a
                 className="project__pane project__pane--lfs"
                 data-project-id="lfs"
+                href="https://www.lifesearch.com/"
+                target="_blank"
               >
                 <img
                   src="images/projects/project/lfs-logo.svg"
                   loading="lazy"
                 />
-              </div>
+              </a>
             </Col>
             <Col xs="6" md="3">
-              <div
+              <a
                 className="project__pane project__pane--hoya"
                 data-project-id="hoya"
+                href="https://www.hoyavision.com/uk/"
+                target="_blank"
               >
                 <img
                   src="images/projects/project/hoya-logo.svg"
                   loading="lazy"
                 />
-              </div>
+              </a>
             </Col>
             <Col xs="6" md="3">
-              <div
+              <a
                 className="project__pane project__pane--afi"
                 data-project-id="afi"
+                href="https://www.animalfriends.co.uk/"
+                target="_blank"
               >
                 <img
                   src="images/projects/project/afi-logo.svg"
                   loading="lazy"
                 />
-              </div>
+              </a>
             </Col>
             <Col xs="6" md="3">
-              <div
+              <a
                 className="project__pane project__pane--jd"
                 data-project-id="jd"
+                href="https://jodarleyandco.com/"
+                target="_blank"
               >
                 <img src="images/projects/project/jd-logo.svg" loading="lazy" />
-              </div>
+              </a>
             </Col>
             <Col xs="6" md="3">
-              <div
+              <a
                 className="project__pane project__pane--swi"
                 data-project-id="swi"
+                href="https://www.swinton.co.uk/"
+                target="_blank"
               >
                 <img
                   src="images/projects/project/swi-logo.png"
                   loading="lazy"
                 />
-              </div>
+              </a>
             </Col>
             <Col xs="6" md="3">
-              <div
+              <a
                 className="project__pane project__pane--atg"
                 data-project-id="atg"
+                href="https://www.atlantagroup.co.uk/"
+                target="_blank"
               >
                 <img
                   src="images/projects/project/atg-logo.png"
                   loading="lazy"
                 />
-              </div>
+              </a>
             </Col>
             <Col xs="6" md="3">
-              <div
+              <a
                 className="project__pane project__pane--cn"
                 data-project-id="cn"
+                href="https://www.carolenash.com/"
+                target="_blank"
               >
                 <img
                   src="images/projects/project/carolenash-logo.svg"
                   loading="lazy"
                 />
-              </div>
+              </a>
             </Col>
             <Col xs="6" md="3">
-              <div
+              <a
                 className="project__pane project__pane--ms"
                 data-project-id="ms"
+                href="https://www.marisolcorona.com/"
+                target="_blank"
               >
                 <img
                   src="images/projects/project/marisol-logo.png"
                   loading="lazy"
                 />
-              </div>
+              </a>
             </Col>
           </Row>
         </Container>
@@ -171,7 +188,9 @@ export default function Home() {
       <section className="section text-center offer">
         <Container>
           <h2>What can I offer?</h2>
-          <p>Here are three qualities I can bring to a new role:</p>
+          <p className="lead">
+            Here are three of my biggest qualities I can bring to your role
+          </p>
           <Row>
             <Col xs="12" lg="4">
               <div className="offer__block">
@@ -216,7 +235,11 @@ export default function Home() {
           <div className="section--freelance__text">
             <h2>Yes... I am open to freelance opportunities!</h2>
             <p>Check out my last fullstack freelance project I have created.</p>
-            <a className="btn btn-secondary" href="#">
+            <a
+              className="btn btn-secondary"
+              href="https://jodarleyandco.com/"
+              target="_blank"
+            >
               Click Here
             </a>
           </div>

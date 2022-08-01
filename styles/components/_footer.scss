@@ -41,6 +41,22 @@
         height: 50px;
         object-fit: contain;
         margin: 0 10px;
+        transition: 0.25s;
+      }
+
+      a {
+        transition: 0.25s;
+
+        &:hover {
+          img {
+            filter: invert(0.25);
+          }
+        }
+        @include media-breakpoint-up(lg) {
+          &:last-child img {
+            margin-right: 0;
+          }
+        }
       }
     }
   }

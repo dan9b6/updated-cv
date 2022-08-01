@@ -5,15 +5,15 @@ import Col from "react-bootstrap/Col";
 
 const Footer = () => {
   return (
-    <footer className="section--dark footer">
+    <footer className="section--dark footer" id="footer">
       <Container>
         <Row>
           <Col xs="12" lg="8">
             <div className="footer__contact">
               <h2>Get in touch</h2>
               <p>
-                If you think I meet the bill for your role - feel free to
-                contact me using the contact form below.
+                If you think I am the perfect fit for you, leave me a message
+                below and I will get back to you as soon as I can.
               </p>
               <Form className="footer__form">
                 <Row>
@@ -69,17 +69,15 @@ const Footer = () => {
               <p>Get in touch using a different way</p>
               <ul className="footer__social-links">
                 <li>
-                  <a href="">
+                  <a href="mailto:danbh7296@gmail.com" target="_blank">
                     <img src="images/svg/mail.svg" alt="Phone" />
                   </a>
                 </li>
                 <li>
-                  <a href="" className="nav__social-icon">
-                    <img src="images/svg/phone.svg" alt="Phone" />
-                  </a>
-                </li>
-                <li>
-                  <a href="" className="nav__social-icon">
+                  <a
+                    href="https://www.linkedin.com/in/dan-burton-654ba4180/"
+                    className="nav__social-icon"
+                  >
                     <img src="images/svg/linkedin.svg" alt="Phone" />
                   </a>
                 </li>

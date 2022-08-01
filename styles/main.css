@@ -10936,6 +10936,20 @@ textarea.form-control-lg {
   transition: 0.4s;
   transition-delay: 0;
 }
+.theme--lfs .section--dark h2, .theme--lfs .section--dark .h2 {
+  color: #fff;
+}
+.theme--lfs h1, .theme--lfs .h1,
+.theme--lfs h2,
+.theme--lfs .h2,
+.theme--lfs h3,
+.theme--lfs .h3,
+.theme--lfs h4,
+.theme--lfs .h4,
+.theme--lfs h5,
+.theme--lfs .h5 {
+  color: #31b1b4;
+}
 .theme--hoya .header,
 .theme--hoya .section--dark,
 .theme--hoya .btn-secondary {
@@ -10944,6 +10958,20 @@ textarea.form-control-lg {
   color: #fff;
   transition: 0.4s;
   transition-delay: 0;
+}
+.theme--hoya .section--dark h2, .theme--hoya .section--dark .h2 {
+  color: #fff;
+}
+.theme--hoya h1, .theme--hoya .h1,
+.theme--hoya h2,
+.theme--hoya .h2,
+.theme--hoya h3,
+.theme--hoya .h3,
+.theme--hoya h4,
+.theme--hoya .h4,
+.theme--hoya h5,
+.theme--hoya .h5 {
+  color: #0055c4;
 }
 .theme--afi .header,
 .theme--afi .section--dark,
@@ -10959,6 +10987,20 @@ textarea.form-control-lg {
   transition: 0.4s;
   transition-delay: 0;
 }
+.theme--afi .section--dark h2, .theme--afi .section--dark .h2 {
+  color: #fff;
+}
+.theme--afi h1, .theme--afi .h1,
+.theme--afi h2,
+.theme--afi .h2,
+.theme--afi h3,
+.theme--afi .h3,
+.theme--afi h4,
+.theme--afi .h4,
+.theme--afi h5,
+.theme--afi .h5 {
+  color: #e3056d;
+}
 .theme--jd .header,
 .theme--jd .section--dark,
 .theme--jd .btn-secondary {
@@ -10973,6 +11015,20 @@ textarea.form-control-lg {
   transition: 0.4s;
   transition-delay: 0;
 }
+.theme--jd .section--dark h2, .theme--jd .section--dark .h2 {
+  color: #fff;
+}
+.theme--jd h1, .theme--jd .h1,
+.theme--jd h2,
+.theme--jd .h2,
+.theme--jd h3,
+.theme--jd .h3,
+.theme--jd h4,
+.theme--jd .h4,
+.theme--jd h5,
+.theme--jd .h5 {
+  color: #144941;
+}
 .theme--swi .header,
 .theme--swi .section--dark,
 .theme--swi .btn-secondary {
@@ -10985,6 +11041,20 @@ textarea.form-control-lg {
   background-color: #fff;
   transition: 0.4s;
   transition-delay: 0;
+}
+.theme--swi .section--dark h2, .theme--swi .section--dark .h2 {
+  color: #fff;
+}
+.theme--swi h1, .theme--swi .h1,
+.theme--swi h2,
+.theme--swi .h2,
+.theme--swi h3,
+.theme--swi .h3,
+.theme--swi h4,
+.theme--swi .h4,
+.theme--swi h5,
+.theme--swi .h5 {
+  color: #003876;
 }
 .theme--atg .header,
 .theme--atg .section--dark,
@@ -10999,6 +11069,20 @@ textarea.form-control-lg {
   background-color: #333;
   transition: 0.4s;
   transition-delay: 0;
+}
+.theme--atg .section--dark h2, .theme--atg .section--dark .h2 {
+  color: #fff;
+}
+.theme--atg h1, .theme--atg .h1,
+.theme--atg h2,
+.theme--atg .h2,
+.theme--atg h3,
+.theme--atg .h3,
+.theme--atg h4,
+.theme--atg .h4,
+.theme--atg h5,
+.theme--atg .h5 {
+  color: #333;
 }
 .theme--cn .section--dark,
 .theme--cn .btn-secondary {
@@ -11025,6 +11109,20 @@ textarea.form-control-lg {
   transition: 0.4s;
   transition-delay: 0;
 }
+.theme--cn .section--dark h2, .theme--cn .section--dark .h2 {
+  color: #fff;
+}
+.theme--cn h1, .theme--cn .h1,
+.theme--cn h2,
+.theme--cn .h2,
+.theme--cn h3,
+.theme--cn .h3,
+.theme--cn h4,
+.theme--cn .h4,
+.theme--cn h5,
+.theme--cn .h5 {
+  color: #29326c;
+}
 .theme--ms .header,
 .theme--ms .section--dark,
 .theme--ms .btn-secondary {
@@ -11038,6 +11136,20 @@ textarea.form-control-lg {
   background-color: #fff;
   transition: 0.4s;
   transition-delay: 0;
+}
+.theme--ms .section--dark h2, .theme--ms .section--dark .h2 {
+  color: #fff;
+}
+.theme--ms h1, .theme--ms .h1,
+.theme--ms h2,
+.theme--ms .h2,
+.theme--ms h3,
+.theme--ms .h3,
+.theme--ms h4,
+.theme--ms .h4,
+.theme--ms h5,
+.theme--ms .h5 {
+  color: #ff80ab;
 }
 
 .footer {
@@ -11084,6 +11196,18 @@ textarea.form-control-lg {
   -o-object-fit: contain;
      object-fit: contain;
   margin: 0 10px;
+  transition: 0.25s;
+}
+.footer__social-links a {
+  transition: 0.25s;
+}
+.footer__social-links a:hover img {
+  filter: invert(0.25);
+}
+@media (min-width: 992px) {
+  .footer__social-links a:last-child img {
+    margin-right: 0;
+  }
 }
 @media (min-width: 992px) {
   .footer__contact {
@@ -11122,6 +11246,8 @@ textarea.form-control-lg {
 .header__logo {
   display: flex;
   align-items: center;
+  text-decoration: none;
+  color: #fff;
 }
 .header__logo img {
   width: auto;
@@ -11143,9 +11269,13 @@ textarea.form-control-lg {
     display: block;
   }
 }
+.header__logo:hover span {
+  color: #f0f;
+}
 .header__menu {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .header__menu-status {
   position: relative;
@@ -11270,12 +11400,16 @@ textarea.form-control-lg {
 }
 .nav__links li a:before {
   content: "";
+  transition: 0.25s;
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 3px;
   background-color: #f0f;
+}
+.nav__links li:hover a:before {
+  background-color: #192542;
 }
 .nav__links-social {
   display: flex;
@@ -11291,12 +11425,17 @@ textarea.form-control-lg {
   position: relative;
   height: 50px;
   width: 50px;
+  transition: 0.25s;
 }
 .nav__links-social li a img {
   height: 50px;
   width: 50px;
   -o-object-fit: contain;
      object-fit: contain;
+  transition: 0.25s;
+}
+.nav__links-social li a:hover img {
+  filter: invert(0.25);
 }
 
 .offer__block {
@@ -11365,6 +11504,7 @@ textarea.form-control-lg {
 .section {
   position: relative;
   padding: 40px 0;
+  transition: 0.25s;
 }
 @media (min-width: 768px) {
   .section {
@@ -11403,6 +11543,7 @@ textarea.form-control-lg {
 .section--landing .scroll-prompt {
   position: absolute;
   bottom: 50px;
+  text-decoration: none;
 }
 .section--landing .scroll-prompt__text {
   position: relative;

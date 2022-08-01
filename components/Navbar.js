@@ -1,33 +1,43 @@
 import Link from "next/link";
+import { useEffect } from "react";
 import Container from "react-bootstrap/Container";
 
 const Navbar = () => {
+  function toggleNav() {
+    document.querySelector(".nav").classList.toggle("active");
+    document.querySelector("body").classList.toggle("no-scroll");
+    document.querySelector(".header__menu").classList.toggle("active");
+  }
+
+  useEffect(() => {
+    let navLinks = document.querySelectorAll(".nav__links a");
+
+    navLinks.forEach((link) => {
+      link.addEventListener("click", toggleNav, { passive: true });
+    });
+  }, []);
+
   return (
     <nav className="nav">
       <Container>
         <ul className="nav__links">
           <li>
-            <Link href="#">
+            <Link href="/">
               <a>Home</a>
             </Link>
           </li>
           <li>
-            <Link href="#">
+            <Link href="#what-can-i-offer">
               <a>About Me</a>
             </Link>
           </li>
           <li>
-            <Link href="#">
-              <a>Employment</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="#">
+            <Link href="/#projects">
               <a>Projects</a>
             </Link>
           </li>
           <li>
-            <Link href="#">
+            <Link href="#footer">
               <a>Contact</a>
             </Link>
           </li>

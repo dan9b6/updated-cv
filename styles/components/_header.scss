@@ -22,6 +22,8 @@
   &__logo {
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: $c-white;
 
     img {
       width: auto;
@@ -42,11 +44,18 @@
         display: block;
       }
     }
+
+    &:hover {
+      span {
+        color: $c-pink;
+      }
+    }
   }
 
   &__menu {
     display: flex;
     align-items: center;
+    cursor: pointer;
 
     &-status {
       position: relative;
