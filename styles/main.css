@@ -11161,28 +11161,6 @@ textarea.form-control-lg {
     padding: 80px 0 20px;
   }
 }
-.footer__form {
-  max-width: 650px;
-  margin: 0 auto;
-  text-align: start;
-}
-@media (min-width: 768px) {
-  .footer__form {
-    max-width: unset;
-  }
-}
-@media (min-width: 992px) {
-  .footer__social {
-    text-align: end;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-end;
-  }
-  .footer__social img {
-    margin: unset;
-  }
-}
 .footer__social-links {
   display: flex;
   justify-content: center;
@@ -11207,16 +11185,6 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .footer__social-links a:last-child img {
     margin-right: 0;
-  }
-}
-@media (min-width: 992px) {
-  .footer__contact {
-    text-align: start;
-  }
-}
-@media (min-width: 992px) {
-  .footer__split {
-    display: none;
   }
 }
 .footer #wave {
@@ -11546,32 +11514,36 @@ textarea.form-control-lg {
   text-decoration: none;
 }
 .section--landing .scroll-prompt__text {
-  position: relative;
-  background-color: white;
-  color: #192542;
-  padding: 25px 30px;
+  color: #fff;
   margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 0.375rem;
-}
-.section--landing .scroll-prompt__text:before {
-  content: "";
-  position: absolute;
-  height: 115px;
-  width: 220px;
-  background-image: url("/../images/point-down.png");
-  top: -76px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
 }
 .section--landing .scroll-prompt__icon {
   height: 30px;
   width: auto;
   -webkit-animation: scrollPrompt 0.8s infinite;
           animation: scrollPrompt 0.8s infinite;
+}
+.section--landing:before {
+  content: "";
+  position: absolute;
+  height: 50%;
+  width: 125px;
+  background-image: url("/../images/point-side.png");
+  bottom: 0;
+  right: 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+@media (min-width: 768px) {
+  .section--landing:before {
+    width: 225px;
+  }
+}
+@media (min-width: 992px) {
+  .section--landing:before {
+    width: 300px;
+  }
 }
 .section--freelance {
   background-image: url("/../images/desktop-jd.jpg");
@@ -11594,33 +11566,6 @@ textarea.form-control-lg {
   border-radius: 0.375rem;
   max-width: 650px;
   margin: 0 auto;
-}
-
-#find-out-more img {
-  max-width: 200px;
-  z-index: 2;
-}
-#find-out-more .btn {
-  position: relative;
-  top: -37px;
-  padding-top: 30px;
-  padding-right: 40px;
-  padding-bottom: 10px;
-}
-#find-out-more .btn:before {
-  content: "";
-  position: absolute;
-  height: 20px;
-  width: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  background-image: url("/../images/svg/cursor.svg");
-  right: 10px;
-  transform-origin: center;
-  -webkit-animation: cursorAnimation 0.8s infinite;
-          animation: cursorAnimation 0.8s infinite;
-  bottom: 10px;
 }
 
 @-webkit-keyframes scrollPrompt {
@@ -11819,6 +11764,30 @@ textarea.form-control-lg {
     left: -8px;
     right: unset;
   }
+}
+
+.modal-1 {
+  position: fixed;
+  top: -100%;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #192542;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.modal-1 img {
+  max-height: 400px;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: 20px;
+}
+.modal-1.active {
+  top: 0;
 }
 
 .btn-container {

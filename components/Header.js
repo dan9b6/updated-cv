@@ -13,7 +13,6 @@ const Header = () => {
 
   const onScroll = useCallback((event) => {
     const { scrollY } = window;
-    console.log("scrollY", scrollY);
     setScrollY(window.pageYOffset);
     if (scrollY > 150) {
       document.querySelector(".header").classList.add("slide");

@@ -6,6 +6,7 @@ import { useState, useCallback, useEffect } from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
+import Modal from "../components/Modal";
 
 export default function Home() {
   const [toggle, setToggle] = useState(false);
@@ -17,9 +18,12 @@ export default function Home() {
     document.querySelector("body").classList.toggle("no-scroll");
   }
 
+  function toggleModal() {
+    document.querySelector(".modal-1").classList.toggle("active");
+  }
+
   const onScroll = useCallback((event) => {
     const { scrollY } = window;
-    console.log("scrollY", scrollY);
     setScrollY(window.pageYOffset);
     if (scrollY > 150) {
       document.querySelector(".header").classList.add("slide");
@@ -30,6 +34,10 @@ export default function Home() {
 
   useEffect(() => {
     window.addEventListener("scroll", onScroll, { passive: true });
+
+    document
+      .querySelector("#openModal")
+      .addEventListener("click", toggleModal, { passive: true });
 
     document.querySelectorAll(".project__pane").forEach((pane) => {
       pane.addEventListener("mouseover", (e) => {
@@ -56,9 +64,7 @@ export default function Home() {
         </Container>
 
         <a className="scroll-prompt" href="#what-can-i-offer">
-          <div className="scroll-prompt__text">
-            <strong>Scroll down to see more</strong>
-          </div>
+          <div className="scroll-prompt__text">Scroll down to see more</div>
           <img
             src="images/svg/mouse.svg"
             alt="Mouse"
@@ -75,9 +81,13 @@ export default function Home() {
             <i>How long have you got?</i>
           </p>
           <div className="btn-container">
-            <button className="btn btn-secondary">I've got no time...</button>
-            <Link href="/about-me">
-              <a className="btn btn-secondary">I've got time!</a>
+            <button className="btn btn-secondary" id="openModal">
+              I've got no time...
+            </button>
+            <Link href="/about">
+              <a className="btn btn-secondary" id="find-out-more">
+                I've got time!
+              </a>
             </Link>
           </div>
         </Container>
@@ -251,6 +261,7 @@ export default function Home() {
         </Container>
       </section>
       <Footer />
+      <Modal />
     </>
   );
 }

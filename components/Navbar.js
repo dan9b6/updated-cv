@@ -32,7 +32,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/#projects">
+            <Link href="/#find-out-more">
               <a>Projects</a>
             </Link>
           </li>
@@ -44,17 +44,16 @@ const Navbar = () => {
         </ul>
         <ul className="nav__links-social">
           <li>
-            <a href="">
-              <img src="images/svg/mail.svg" alt="Phone" />
+            <a href="mailto:danbh7296@gmail.com">
+              <img src="images/svg/mail.svg" alt="email" />
             </a>
           </li>
           <li>
-            <a href="" className="nav__social-icon">
-              <img src="images/svg/phone.svg" alt="Phone" />
-            </a>
-          </li>
-          <li>
-            <a href="" className="nav__social-icon">
+            <a
+              href="https://www.linkedin.com/in/dan-burton-654ba4180/"
+              className="nav__social-icon"
+              target="_blank"
+            >
               <img src="images/svg/linkedin.svg" alt="Phone" />
             </a>
           </li>
