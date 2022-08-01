@@ -1,7 +1,4 @@
-import Form from "react-bootstrap/Form";
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
 const Footer = () => {
   return (
@@ -15,11 +12,16 @@ const Footer = () => {
           </p>
         </div>
         <div className="footer__social">
-          <img src="images/wave.gif" alt="It's me waving" id="wave" />
+          <img
+            src="images/wave.gif"
+            alt="It's me waving"
+            id="wave"
+            loading="lazy"
+          />
           <ul className="footer__social-links">
             <li>
               <a href="mailto:danbh7296@gmail.com" target="_blank">
-                <img src="images/svg/mail.svg" alt="Phone" />
+                <img src="images/svg/mail.svg" alt="Phone" loading="lazy" />
               </a>
             </li>
             <li>
@@ -28,7 +30,7 @@ const Footer = () => {
                 className="nav__social-icon"
                 target="_blank"
               >
-                <img src="images/svg/linkedin.svg" alt="Phone" />
+                <img src="images/svg/linkedin.svg" alt="Phone" loading="lazy" />
               </a>
             </li>
           </ul>

@@ -133,12 +133,16 @@ const aboutMe = () => {
             </div>
           </Container>
         </section>
-        <section className="section text-center">
+        <section className="section text-center section--timeline">
           <Container>
             <h2>My Timeline</h2>
             <div className="timeline">
               <div className="timeline__block">
-                <img src="images/timeline/1.jpg" alt="baby dan" />
+                <img
+                  src="images/timeline/1.jpg"
+                  alt="baby dan"
+                  loading="lazy"
+                />
                 <h3>1996</h3>
                 <p>
                   The year I was born. The year Take That separated and the year
@@ -146,7 +150,11 @@ const aboutMe = () => {
                 </p>
               </div>
               <div className="timeline__block">
-                <img src="images/timeline/2.jpg" alt="school boy dan" />
+                <img
+                  src="images/timeline/2.jpg"
+                  alt="school boy dan"
+                  loading="lazy"
+                />
                 <h3>2000</h3>
                 <p>
                   My first day at school was at Lilliput Primary School. Who
@@ -155,7 +163,11 @@ const aboutMe = () => {
                 </p>
               </div>
               <div className="timeline__block">
-                <img src="images/timeline/3.jpg" alt="highbury stadium" />
+                <img
+                  src="images/timeline/3.jpg"
+                  alt="highbury stadium"
+                  loading="lazy"
+                />
                 <h3>2002</h3>
                 <p>
                   I went to my first ever football match - Arsenal vs
@@ -166,7 +178,11 @@ const aboutMe = () => {
                 </p>
               </div>
               <div className="timeline__block">
-                <img src="images/timeline/4.jpg" alt="paper boy" />
+                <img
+                  src="images/timeline/4.jpg"
+                  alt="paper boy"
+                  loading="lazy"
+                />
                 <h3>2010</h3>
                 <p>
                   My first job was landed. I became a paperboy! Monday to
@@ -176,7 +192,11 @@ const aboutMe = () => {
                 </p>
               </div>
               <div className="timeline__block">
-                <img src="images/timeline/5.png" alt="yeovil football club" />
+                <img
+                  src="images/timeline/5.png"
+                  alt="yeovil football club"
+                  loading="lazy"
+                />
                 <h3>2011</h3>
                 <p>
                   I was (and still am) obsessed with football. Fortunately, I
@@ -200,7 +220,11 @@ const aboutMe = () => {
                 </p>
               </div>
               <div className="timeline__block">
-                <img src="images/timeline/7.png" alt="The Training Room" />
+                <img
+                  src="images/timeline/7.png"
+                  alt="The Training Room"
+                  loading="lazy"
+                />
                 <h3>2015</h3>
                 <p>
                   I began my first job in Educational Sales at The Training
@@ -215,7 +239,11 @@ const aboutMe = () => {
                 </p>
               </div>
               <div className="timeline__block">
-                <img src="images/timeline/8.png" alt="Thailand trip" />
+                <img
+                  src="images/timeline/8.png"
+                  alt="Thailand trip"
+                  loading="lazy"
+                />
                 <h3>2019</h3>
                 <p>
                   At the start of 2019, I decided to go travelling in Thailand.
@@ -228,7 +256,11 @@ const aboutMe = () => {
                 </p>
               </div>
               <div className="timeline__block">
-                <img src="images/timeline/9.png" alt="code academy logo" />
+                <img
+                  src="images/timeline/9.png"
+                  alt="code academy logo"
+                  loading="lazy"
+                />
                 <h3>2019</h3>
                 <p>
                   I started learning how to code. I became a regular at
@@ -243,7 +275,11 @@ const aboutMe = () => {
                 </p>
               </div>
               <div className="timeline__block">
-                <img src="images/timeline/10.png" alt="Ironhack logo" />
+                <img
+                  src="images/timeline/10.png"
+                  alt="Ironhack logo"
+                  loading="lazy"
+                />
                 <h3>2020</h3>
                 <p>
                   I graduated as a Web Developer through Ironhack Tech Bootcamp
@@ -257,7 +293,11 @@ const aboutMe = () => {
                 </p>
               </div>
               <div className="timeline__block">
-                <img src="images/timeline/11.png" alt="Bendando logo" />
+                <img
+                  src="images/timeline/11.png"
+                  alt="Bendando logo"
+                  loading="lazy"
+                />
                 <h3>2021</h3>
                 <p>
                   I began an apprenticeship with BenDando. Currently, most of
@@ -269,7 +309,11 @@ const aboutMe = () => {
                 </p>
               </div>
               <div className="timeline__block">
-                <img src="images/skills/appius-logo.svg" alt="Appius" />
+                <img
+                  src="images/skills/appius-logo.svg"
+                  alt="Appius"
+                  loading="lazy"
+                />
                 <h3>2022</h3>
                 <p>
                   I started my first web agency role at Appius. During my time

@@ -11567,6 +11567,25 @@ textarea.form-control-lg {
   max-width: 650px;
   margin: 0 auto;
 }
+.section--timeline:before {
+  content: "";
+  position: absolute;
+  height: 100px;
+  width: 225px;
+  background-image: url("/../images/point-down.png");
+  top: -65px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+@media (min-width: 768px) {
+  .section--timeline:before {
+    height: 125px;
+    top: -82px;
+  }
+}
 
 @-webkit-keyframes scrollPrompt {
   0% {
@@ -11621,6 +11640,9 @@ textarea.form-control-lg {
   height: 300px;
   padding-top: 120px;
   border-bottom: 10px solid #192542;
+}
+.about .section--landing:before {
+  display: none;
 }
 .about__summary-block {
   margin-bottom: 40px;

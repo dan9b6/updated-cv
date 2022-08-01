@@ -8,6 +8,10 @@
     height: 300px;
     padding-top: 120px;
     border-bottom: 10px solid $c-navy;
+
+    &:before {
+      display: none;
+    }
   }
 
   &__summary {
