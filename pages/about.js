@@ -79,12 +79,16 @@ const aboutMe = () => {
                       <span>React.js</span>
                     </Col>
                     <Col xs="4" className="mb-3">
+                      <img src="images/skills/next-js.svg" alt="Next js logo" />
+                      <span>Next.js</span>
+                    </Col>
+                    <Col xs="4" className="mb-3">
                       <img src="images/skills/js.svg" alt="javascript logo" />
                       <span>Javascript</span>
                     </Col>
                     <Col xs="4" className="mb-3">
-                      <img src="images/skills/next-js.svg" alt="Next js logo" />
-                      <span>Next.js</span>
+                      <img src="images/skills/github.svg" alt="github logo" />
+                      <span>Github</span>
                     </Col>
                     <Col xs="4" className="mb-3">
                       <img
@@ -94,12 +98,8 @@ const aboutMe = () => {
                       <span>Bootstrap</span>
                     </Col>
                     <Col xs="4" className="mb-3">
-                      <img src="images/skills/github.svg" alt="github logo" />
-                      <span>Github</span>
-                    </Col>
-                    <Col xs="4" className="mb-3">
-                      <img src="images/skills/github.svg" alt="github logo" />
-                      <span>Github</span>
+                      <img src="images/skills/asp.svg" alt="ASP logo" />
+                      <span>MVC Razor</span>
                     </Col>
                   </Row>
                 </div>
