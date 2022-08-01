@@ -77,6 +77,7 @@ const Footer = () => {
                   <a
                     href="https://www.linkedin.com/in/dan-burton-654ba4180/"
                     className="nav__social-icon"
+                    target="_blank"
                   >
                     <img src="images/svg/linkedin.svg" alt="Phone" />
                   </a>

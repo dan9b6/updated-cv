@@ -22,10 +22,7 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
         />
       </Head>
-      <Header />
-      <Navbar />
       <Component {...pageProps} />
-      <Footer />
     </>
   );
 }

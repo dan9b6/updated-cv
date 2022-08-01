@@ -3,6 +3,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Link from "next/link";
 import { useState, useCallback, useEffect } from "react";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   const [toggle, setToggle] = useState(false);
@@ -43,6 +46,8 @@ export default function Home() {
 
   return (
     <>
+      <Header />
+      <Navbar />
       <section className="section section--landing section--dark text-center">
         <Container>
           <div className="section--landing__heading">
@@ -245,6 +250,7 @@ export default function Home() {
           </div>
         </Container>
       </section>
+      <Footer />
     </>
   );
 }

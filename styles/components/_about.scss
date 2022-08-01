@@ -1,0 +1,97 @@
+.about {
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .section--landing {
+    height: 300px;
+    padding-top: 120px;
+    border-bottom: 10px solid $c-navy;
+  }
+
+  &__summary {
+    &-block {
+      margin-bottom: 40px;
+
+      &--skills {
+        img {
+          width: 65px;
+          height: 65px;
+          max-width: 100px;
+          max-height: 100px;
+          object-fit: contain;
+
+          @include media-breakpoint-up(md) {
+            width: 100px;
+            height: 100px;
+          }
+        }
+
+        @include media-breakpoint-up(lg) {
+          margin-bottom: 0;
+        }
+      }
+
+      &--education {
+        img {
+          width: 100%;
+          max-width: 150px;
+          margin-bottom: 25px;
+        }
+      }
+    }
+  }
+
+  &__employment-block {
+    padding: 40px 0;
+    max-width: 650px;
+    margin: 0 auto;
+    position: relative;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px;
+      height: 4px;
+      background-color: $c-pink;
+      border-radius: $border-radius;
+    }
+
+    img {
+      max-width: 200px;
+      margin-bottom: 25px;
+
+      @include media-breakpoint-up(md) {
+        max-width: 300px;
+      }
+    }
+
+    ul {
+      list-style: disc;
+    }
+
+    li {
+      margin-bottom: 15px;
+
+      &::marker {
+        color: $c-pink;
+      }
+
+      ul {
+        padding: 20px;
+        list-style: inside;
+        li {
+          margin-bottom: 5px;
+
+          &::marker {
+            color: $c-white;
+          }
+        }
+      }
+    }
+  }
+}
