@@ -65,6 +65,8 @@
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
+      opacity: 1;
+      transition: 0.5s;
 
       @include media-breakpoint-up(md) {
         width: 225px;

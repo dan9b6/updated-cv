@@ -11534,6 +11534,8 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  opacity: 1;
+  transition: 0.5s;
 }
 @media (min-width: 768px) {
   .section--landing:before {
