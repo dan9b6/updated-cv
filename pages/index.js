@@ -39,18 +39,6 @@ export default function Home() {
     document
       .querySelector("#openModal")
       .addEventListener("click", toggleModal, { passive: true });
-
-    document.querySelectorAll(".project__pane").forEach((pane) => {
-      pane.addEventListener("mouseover", (e) => {
-        let id = pane.getAttribute("data-project-id");
-        document.querySelector("body").classList.add(`theme--${id}`);
-      });
-
-      pane.addEventListener("mouseleave", (e) => {
-        let id = pane.getAttribute("data-project-id");
-        document.querySelector("body").classList.remove(`theme--${id}`);
-      });
-    });
   }, []);
 
   return (
