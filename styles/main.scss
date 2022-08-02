@@ -23,14 +23,22 @@
   box-sizing: border-box;
 }
 
+html,
 body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  position: relative;
   transition: 0.25s;
   font-family: $font-body;
   color: $c-navy;
+
   &.no-scroll {
     overflow: hidden;
     @include media-breakpoint-up(md) {
-      overflow: scroll;
+      overflow: auto;
     }
   }
 }
