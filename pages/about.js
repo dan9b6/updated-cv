@@ -31,7 +31,7 @@ const aboutMe = () => {
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.danburts.co.uk/" />
-        <meta property="twitter:title" content="Jo Darley & Co" />
+        <meta property="twitter:title" content="danburts - CV website" />
         <meta
           property="twitter:description"
           content="Check out my personal CV site if you are looking for your next developer!"
