@@ -274,7 +274,7 @@ export default function Home() {
                 <img src="images/bulb.gif" loading="lazy" />
                 <h3>Problem Solver</h3>
                 <p>
-                  Nothing is more rewarding then resolving a problem. There are
+                  Nothing is more rewarding then solving a problem. There are
                   many challenges day to day as a developer
                 </p>
               </div>
