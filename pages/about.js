@@ -130,7 +130,7 @@ const aboutMe = () => {
           <Container>
             <h2>Current Role</h2>
             <div className="about__employment-block">
-              <h3>Junior Frontend Developer</h3>
+              <h3>Frontend Developer</h3>
               <img src="images/skills/appius-logo.svg" alt="Appius Logo" />
               <h5>Roles and Responsibilites</h5>
               <ul className="text-start">
