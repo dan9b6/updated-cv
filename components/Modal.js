@@ -19,7 +19,12 @@ const Modal = () => {
       <Container>
         <div>
           <h2>See... I can code stuff</h2>
-          <img src="images/modal1.gif" alt="I am coding stuff" />
+          <img
+            src="images/modal1.gif"
+            alt="I am coding stuff"
+            width="700"
+            height="400"
+          />
           <h3>Are you ready to hire me?</h3>
           <div className="btn-container">
             <Link href="/#footer">

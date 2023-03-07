@@ -8,6 +8,7 @@
     margin-bottom: 15px;
     border-radius: 0.375rem;
     transition: 0.4s;
+
     img {
       width: 100px;
       height: 60%;
@@ -46,6 +47,22 @@
 
     &--ms {
       background-color: #ff80ab;
+    }
+
+    &--seik {
+      background-color: #000;
+    }
+
+    &--fs {
+      background-color: #3e4929;
+    }
+
+    &--ps {
+      background-color: #fab519;
+    }
+
+    &--bw {
+      background-color: #1d183b;
     }
 
     @include media-breakpoint-up(md) {

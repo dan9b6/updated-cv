@@ -22,11 +22,13 @@ const Footer = () => {
             alt="It's me waving"
             id="wave"
             loading="lazy"
+            width="200"
+            height="170"
           />
           <ul className="footer__social-links">
             <li>
               <a href="mailto:danbh7296@gmail.com" target="_blank">
-                <img src="images/svg/mail.svg" alt="Phone" loading="lazy" />
+                <img src="images/svg/mail.svg" alt="Email" loading="lazy" />
               </a>
             </li>
             <li>
@@ -35,7 +37,11 @@ const Footer = () => {
                 className="nav__social-icon"
                 target="_blank"
               >
-                <img src="images/svg/linkedin.svg" alt="Phone" loading="lazy" />
+                <img
+                  src="images/svg/linkedin.svg"
+                  alt="Linked In"
+                  loading="lazy"
+                />
               </a>
             </li>
           </ul>

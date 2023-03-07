@@ -54,7 +54,7 @@ const Navbar = () => {
               className="nav__social-icon"
               target="_blank"
             >
-              <img src="images/svg/linkedin.svg" alt="Phone" />
+              <img src="images/svg/linkedin.svg" alt="Linked In" />
             </a>
           </li>
         </ul>

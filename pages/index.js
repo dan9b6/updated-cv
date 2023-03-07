@@ -95,6 +95,8 @@ export default function Home() {
             alt="Mouse"
             className="scroll-prompt__icon"
             id="what-can-i-offer"
+            width="30"
+            height="30"
           />
         </a>
       </section>
@@ -132,6 +134,62 @@ export default function Home() {
           <Row>
             <Col xs="6" md="3">
               <a
+                className="project__pane project__pane--fs"
+                data-project-id="lfs"
+                href="https://www.furnessbs.co.uk/"
+                target="_blank"
+              >
+                <img
+                  src="images/projects/project/fs.svg"
+                  loading="lazy"
+                  alt="Furness logo"
+                />
+              </a>
+            </Col>
+            <Col xs="6" md="3">
+              <a
+                className="project__pane project__pane--seik"
+                data-project-id="lfs"
+                href="https://www.hoyavision.com/en-us/"
+                target="_blank"
+              >
+                <img
+                  src="images/projects/project/seik.svg"
+                  loading="lazy"
+                  alt="Seiko logo"
+                />
+              </a>
+            </Col>
+            <Col xs="6" md="3">
+              <a
+                className="project__pane project__pane--ps"
+                data-project-id="lfs"
+                href="https://www.paymentshield.co.uk/"
+                target="_blank"
+              >
+                <img
+                  src="images/projects/project/ps.svg"
+                  loading="lazy"
+                  alt="Paymentshield logo"
+                />
+              </a>
+            </Col>
+            <Col xs="6" md="3">
+              <a
+                className="project__pane project__pane--bw"
+                data-project-id="lfs"
+                href="https://www.bridewell.com/"
+                target="_blank"
+              >
+                <img
+                  src="images/projects/project/bw.svg"
+                  loading="lazy"
+                  alt="bridewell logo"
+                />
+              </a>
+            </Col>
+            <Col xs="6" md="3">
+              <a
                 className="project__pane project__pane--lfs"
                 data-project-id="lfs"
                 href="https://www.lifesearch.com/"
@@ -140,6 +198,7 @@ export default function Home() {
                 <img
                   src="images/projects/project/lfs-logo.svg"
                   loading="lazy"
+                  alt="Lifesearch logo"
                 />
               </a>
             </Col>
@@ -153,6 +212,7 @@ export default function Home() {
                 <img
                   src="images/projects/project/hoya-logo.svg"
                   loading="lazy"
+                  alt="Hoya logo"
                 />
               </a>
             </Col>
@@ -166,6 +226,7 @@ export default function Home() {
                 <img
                   src="images/projects/project/afi-logo.svg"
                   loading="lazy"
+                  alt="Animal friends logo"
                 />
               </a>
             </Col>
@@ -176,7 +237,11 @@ export default function Home() {
                 href="https://jodarleyandco.com/"
                 target="_blank"
               >
-                <img src="images/projects/project/jd-logo.svg" loading="lazy" />
+                <img
+                  src="images/projects/project/jd-logo.svg"
+                  loading="lazy"
+                  alt="Jo Darley and Co logo"
+                />
               </a>
             </Col>
             <Col xs="6" md="3">
@@ -189,6 +254,7 @@ export default function Home() {
                 <img
                   src="images/projects/project/swi-logo.png"
                   loading="lazy"
+                  alt="Swinton logo"
                 />
               </a>
             </Col>
@@ -202,6 +268,7 @@ export default function Home() {
                 <img
                   src="images/projects/project/atg-logo.png"
                   loading="lazy"
+                  alt="Atlanta Group logo"
                 />
               </a>
             </Col>
@@ -215,6 +282,7 @@ export default function Home() {
                 <img
                   src="images/projects/project/carolenash-logo.svg"
                   loading="lazy"
+                  alt="Carole Nash logo"
                 />
               </a>
             </Col>
@@ -228,6 +296,7 @@ export default function Home() {
                 <img
                   src="images/projects/project/marisol-logo.png"
                   loading="lazy"
+                  alt="Marisol logo"
                 />
               </a>
             </Col>
@@ -247,7 +316,12 @@ export default function Home() {
           <Row>
             <Col xs="12" lg="4">
               <div className="offer__block">
-                <img src="images/sign.gif" loading="lazy" />
+                <img
+                  src="images/sign.gif"
+                  loading="lazy"
+                  height="200"
+                  width="200"
+                />
                 <h3>Communication</h3>
                 <p>
                   I really enjoy working amongst a team of motivated people. I
@@ -259,7 +333,12 @@ export default function Home() {
             </Col>
             <Col xs="12" lg="4">
               <div className="offer__block">
-                <img src="images/enthusiasm.gif" loading="lazy" />
+                <img
+                  src="images/enthusiasm.gif"
+                  loading="lazy"
+                  height="200"
+                  width="200"
+                />
                 <h3>Enthusiasm</h3>
                 <p>
                   I am always willing to take on new challenges and give it my
@@ -271,7 +350,12 @@ export default function Home() {
             </Col>
             <Col xs="12" lg="4">
               <div className="offer__block">
-                <img src="images/bulb.gif" loading="lazy" />
+                <img
+                  src="images/bulb.gif"
+                  loading="lazy"
+                  height="200"
+                  width="200"
+                />
                 <h3>Problem Solver</h3>
                 <p>
                   Nothing is more rewarding then solving a problem. Day to day -

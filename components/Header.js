@@ -30,7 +30,12 @@ const Header = () => {
       <Container fluid>
         <div className="d-flex justify-content-between">
           <a className="header__logo" href="/">
-            <img src="images/wave.gif" alt="It's me waving" />
+            <img
+              src="images/wave.gif"
+              alt="It's me waving"
+              height="80"
+              width="100"
+            />
             <span>danburts.co.uk</span>
           </a>
           <div className="header__menu" onClick={toggleNav}>
