@@ -321,6 +321,7 @@ export default function Home() {
                   loading="lazy"
                   height="200"
                   width="200"
+                  alt="waving sign guy"
                 />
                 <h3>Communication</h3>
                 <p>
@@ -338,6 +339,7 @@ export default function Home() {
                   loading="lazy"
                   height="200"
                   width="200"
+                  alt="enthusiastic"
                 />
                 <h3>Enthusiasm</h3>
                 <p>
@@ -355,6 +357,7 @@ export default function Home() {
                   loading="lazy"
                   height="200"
                   width="200"
+                  alt="light bulb moment"
                 />
                 <h3>Problem Solver</h3>
                 <p>

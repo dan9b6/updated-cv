@@ -22,8 +22,8 @@ const Footer = () => {
             alt="It's me waving"
             id="wave"
             loading="lazy"
-            width="200"
-            height="170"
+            width="350"
+            height="279"
           />
           <ul className="footer__social-links">
             <li>

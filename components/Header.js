@@ -33,8 +33,8 @@ const Header = () => {
             <img
               src="images/wave.gif"
               alt="It's me waving"
-              height="80"
-              width="100"
+              height="279"
+              width="350"
             />
             <span>danburts.co.uk</span>
           </a>
