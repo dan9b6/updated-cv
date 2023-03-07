@@ -23,7 +23,7 @@ const Footer = () => {
             id="wave"
             loading="lazy"
             width="350"
-            height="279"
+            height="160"
           />
           <ul className="footer__social-links">
             <li>
